@@ -1,0 +1,32 @@
+:root{
+    --wihte: #fafafb;
+    --purple: #9a67ea;
+    --blue-light: #04d4c3;
+    --blue-darck: #2a73c2;
+    --green: #2c7b90;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to bottom, var(--green),var(--blue-light));
+    height: 100vh;
+    color: var(--wihte);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    height: calc(100% - 60%);
+    width: calc(100% - 60%);
+    background-color: var(--wihte);
+    background: var(--green);
+}
+
+.titulo{
+    text-align: center;
+}
