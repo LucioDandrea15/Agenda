@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dca2943d5b.js" crossorigin="anonymous"></script>
     <title>Tasks list</title>
 </head>
 <body>
     <section class="container">
         <div id="perfil">
             <div id="fecha"></div>
-            <h1 class="titulo h1">Tasks List</h1>
-            <span class="titulo span">Project Tasks List Basic</span>
+            <h1>Tasks List</h1>
+            <span>Project Tasks List Basic</span>
         </div>
-        <div>
-
+        <div class="add-task">
+            <input type="text" id="input" placeholder="Add task">
+            <i id="enter" class="fa-solid fa-circle-plus"></i>
         </div>
-        <div>
-
+        <div class="tasks">
+            <h3>Tasks for the day</h3>
+            <ul>
+                <li>
+                    <i id="0" data="done" class="fa-regular fa-circle"></i>
+                    <p>make the homework, take the pala</p>
+                    <i id="0" data="delete" class="fa-solid fa-trash"></i>
+                </li>
+            </ul>
         </div>
     </section>
 </body>
